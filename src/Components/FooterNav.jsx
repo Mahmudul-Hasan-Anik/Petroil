@@ -15,7 +15,7 @@ const FooterNav = () => {
         <div className="flex max-w-6xl m-auto py-24 justify-between">
           <div className="font-pop text-white ">
             <picture>
-              <img src="./image/logo.png" loading="lazy" />
+              <img src="./image/footerlogo.png" loading="lazy" />
             </picture>
             <ul className=" pt-6 leading-8 text-sm">
               <li>
