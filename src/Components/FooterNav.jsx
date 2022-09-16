@@ -37,11 +37,27 @@ const FooterNav = () => {
               </li>
             </ul>
 
-            <div className=" flex w-32 justify-between mt-10">
-              <FaFacebookF />
-              <FaTwitter />
-              <FaLinkedinIn />
-              <FaInstagram />
+            <div className=" flex w-32 justify-between mt-5">
+              <div className=" bg-bg-red-custom p-2 rounded-3xl mr-2">
+                <a href="#">
+                  <FaFacebookF />
+                </a>
+              </div>
+              <div className=" bg-bg-red-custom p-2 rounded-3xl mr-2">
+                <a href="#">
+                  <FaTwitter />
+                </a>
+              </div>
+              <div className=" bg-bg-red-custom p-2 rounded-3xl mr-2">
+                <a href="#">
+                  <FaLinkedinIn />
+                </a>
+              </div>
+              <div className=" bg-bg-red-custom p-2 rounded-3xl">
+                <a href="#">
+                  <FaInstagram />
+                </a>
+              </div>
             </div>
           </div>
 
